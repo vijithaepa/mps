@@ -1,0 +1,19 @@
+{
+  "name": "mps",
+  "version": "1.0.0",
+  "description": "maa piya sevana",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "charity",
+    "mps"
+  ],
+  "author": "'vijitha <'vijithaepa@yahoo.com'>",
+  "license": "(MIT)",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.4.0"
+  }
+}
