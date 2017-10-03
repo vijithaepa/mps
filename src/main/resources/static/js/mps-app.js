@@ -7,11 +7,11 @@
     var app = angular.module("mps-app", ['ngMaterial', 'ngMessages', 'ngRoute']);
 
     app.config(function ($routeProvider, $locationProvider) {
-        $routeProvider.when("/",{
-            templateUrl: "./html/mps-home.html"
-            })
-            .when("/index.html", {
+        $routeProvider.when("/home",{
                 templateUrl: "./html/mps-home.html"
+            })
+            .when("/", {
+                redirectTo: "/home"
             })
             .when("/about-us", {
                 templateUrl: "./html/about-us.html"
@@ -29,7 +29,7 @@
                 templateUrl: "./html/reports.html"
             })
             .otherwise({
-                redirectTo: "./index.html"
+                redirectTo: "/home"
             });
         $locationProvider.html5Mode(true);
     });

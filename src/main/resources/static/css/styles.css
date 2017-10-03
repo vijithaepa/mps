@@ -47,7 +47,7 @@
 .navbar {
     margin-bottom: 1px;
     background-color: #2A2922;
-    /*background: url("../img/IMG_004.JPG");*/
+    /*background: url("../img/IMG_004.jpg");*/
 }
 
 .navbar li:hover {
@@ -98,7 +98,7 @@ li.register a:hover, .navbar-default .navbar-nav>li>a:hover{
 }
 
 .jumbotron {
-    background: url("../img/IMG_0064.JPG") no-repeat 50% 0;
+    background: url("../img/IMG_0064.jpg") no-repeat 50% 0;
     height: 350px;
     padding: 0px;
 }
@@ -293,7 +293,7 @@ footer {
     font-weight: bold;
     color: #f2f6f3;
     background: #2A2922;
-    /*background: url("../img/IMG_006.JPG") repeat;*/
+    /*background: url("../img/IMG_006.jpg") repeat;*/
 }
 
 footer.media-links {
